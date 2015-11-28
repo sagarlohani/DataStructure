@@ -7,7 +7,8 @@ ADT : Abstract Data Type.
 
 Operations on data type : Interface
 ----------------------------------
-new():ADT
+
+new():ADT|
 push(S:ADT,0:element):ADT
 pop(S:ADT):ADT
 top(S:ADT):element
