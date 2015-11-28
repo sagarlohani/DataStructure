@@ -5,7 +5,7 @@ Stacks:
 
 ADT : Abstract Data Type.
 
-operations on data type : Interface
+Operations on data type : Interface
 ----------------------------------
 new():ADT
 push(S:ADT,0:element):ADT
@@ -19,10 +19,6 @@ size(S:ADT):integer
 isEmpty(S:ADT):boolean
 
 ----------------------------------
-
-Interfaces and exception
--------------------------
-
 
 public interface Stack{
 	
@@ -38,7 +34,7 @@ public interface Stack{
 
 Array based stack
 
-public class AyyayStack implements Stack{
+public class ArrayStack implements Stack{
 	
 	public static final int CAPACITY = 1024;
 
